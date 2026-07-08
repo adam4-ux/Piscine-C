@@ -106,8 +106,8 @@ Each project folder includes:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=adam4-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adam4-ux&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=adam4-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=adam4-ux&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
 
 </div>
 
