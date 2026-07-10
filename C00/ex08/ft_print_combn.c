@@ -22,7 +22,7 @@ void    ft_print_combn(int n)
 
         while(1)
         {
-                i = 0;// 4
+                i = 0;
                 while(i < n)
                 {
                         ft_putchar(arr[i] + '0');
@@ -35,10 +35,10 @@ void    ft_print_combn(int n)
                 }
                 write(1,", ",2);
 
-                i = n - 1;// 1
+                i = n - 1;
                 while(i >= 0)
                 {
-                        if(arr[i] < 9 - (n - 1 - i))// 2 // 5
+                        if(arr[i] < 9 - (n - 1 - i))
                         {
                                 arr[i]++;
                                 j = i + 1;
@@ -47,9 +47,9 @@ void    ft_print_combn(int n)
                                         arr[j] = arr[j-1] + 1;
                                                 j++;
                                 }
-                                break;// 3
+                                break;
                         }
-                i--;// 6
+                i--;
                 }
         }
 }
