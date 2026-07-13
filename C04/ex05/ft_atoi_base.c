@@ -1,3 +1,12 @@
+            // ft_atoi_base
+
+            // String in base
+            //      │
+            //      ▼
+            // Read each digit
+            //      │
+            //      ▼
+            // Return decimal integer
 #include <stdio.h>
 int ft_strlen(char *s)
 {
@@ -46,21 +55,7 @@ int indexof_base(char str,char *base)
         }
         i++;
     }
-    return 0;
-}
-
-int check_base(char str,char *base)
-{
-    int i = 0;
-    while(base[i])
-    {
-        if(str == base[i])
-        {
-            return 1;
-        }
-        i++;
-    }
-    return 0;
+    return -1;
 }
 
 int ft_atoi_base(char *str, char *base)
@@ -85,7 +80,7 @@ int ft_atoi_base(char *str, char *base)
         i++;
     }
 
-    while(check_base(str[i],base))
+    while(indexof_base(str[i],base) != -1)
     {
         result = result * len_base + indexof_base(str[i],base);
         i++;

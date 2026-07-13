@@ -1,6 +1,13 @@
-#include <unistd.h>
-#include <limits.h>
+        // ft_putnbr_base
 
+        // Integer
+        //    │
+        //    ▼
+        // Convert to another base
+        //    │
+        //    ▼
+        // Print string
+#include <unistd.h>
 int ft_strlen(char *s)
 {
     int i = 0;
