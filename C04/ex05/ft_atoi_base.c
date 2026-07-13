@@ -1,12 +1,3 @@
-            // ft_atoi_base
-
-            // String in base
-            //      │
-            //      ▼
-            // Read each digit
-            //      │
-            //      ▼
-            // Return decimal integer
 #include <stdio.h>
 int ft_strlen(char *s)
 {
@@ -85,6 +76,5 @@ int ft_atoi_base(char *str, char *base)
         result = result * len_base + indexof_base(str[i],base);
         i++;
     }
-
     return result*sign;
 }
