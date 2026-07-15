@@ -17,7 +17,9 @@ int invalid_base(char *base)
         return 0;
     while(base[i])
     {
-        if(base[i] == '+' || base[i] == '-')
+        if(base[i] == '+' || base[i] == '-'
+            || base[i] == ' '
+            || (base[i] >= 9 && base[i] <= 13))
         {
             return 0;
         }
