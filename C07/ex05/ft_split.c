@@ -39,7 +39,7 @@ char **ft_split(char *str, char *charset)
     int j;
     int word = count_words(str,charset);
 
-    char **arr = malloc((word + 1) * sizeof(char *));
+    char **arr = malloc((word + 1) * sizeof(char*));
     if(!arr)
         return NULL;
 
