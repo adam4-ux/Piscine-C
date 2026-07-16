@@ -1,31 +1,35 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1abc9c&height=120&section=header&text=1337-JOURNEY&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=55"/>
+</p>
 
-# 🚀 1337-Journey
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/adam4-ux/1337-Journey?color=gray&label=last%20commit">
+  <img src="https://img.shields.io/github/repo-size/adam4-ux/1337-Journey?color=1abc9c&label=repo%20size">
+  <img src="https://img.shields.io/badge/status-in%20progress-1abc9c">
+</p>
 
-### A complete record of my learning path through the 1337/42 Piscine
+<p align="center">
+  <i>Built with the tools and technologies:</i>
+</p>
 
-<em>Shell scripting · C programming · Algorithmic thinking · Problem solving · Exam prep</em>
+<p align="center">
+  <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=white">
+  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black">
+</p>
+
+<p align="center">
+  By -- <strong>ADAM</strong>
+</p>
 
 <br/>
 
-![Piscine](https://img.shields.io/badge/1337%2F42-Piscine-000000?style=for-the-badge&logo=42&logoColor=white)
-![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Norm](https://img.shields.io/badge/Norminette-Compliant-brightgreen?style=for-the-badge)
-
-<br/>
-
-![Last Commit](https://img.shields.io/github/last-commit/USERNAME/1337-Journey?style=flat-square&color=blue)
-![Repo Size](https://img.shields.io/github/repo-size/USERNAME/1337-Journey?style=flat-square&color=orange)
-![Stars](https://img.shields.io/github/stars/USERNAME/1337-Journey?style=flat-square&color=yellow)
-
-</div>
-
-<br/>
-
-> *"Ce que je fais, je le fais bien, ou je ne le fais pas."*
-> — 42 Network philosophy
+<p align="center">
+  <i>"Ce que je fais, je le fais bien, ou je ne le fais pas."</i>
+  <br/>
+  — 42 Network philosophy
+</p>
 
 <br/>
 
@@ -224,7 +228,7 @@ The `Notes/` folder contains personal write-ups on concepts that took real effor
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-USERNAME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-adam4-ux-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adam4-ux)
 
 </div>
 
@@ -235,7 +239,7 @@ The `Notes/` folder contains personal write-ups on concepts that took real effor
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-your.email%40example.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adam4-ux)
 
 </div>
 
