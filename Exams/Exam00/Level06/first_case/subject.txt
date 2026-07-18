@@ -1,0 +1,19 @@
+Assignment name  : first_case
+Expected files   : first_case.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes one string as argument.
+
+The program must print the string with all alphabetic characters converted to
+lowercase, except:
+
+- The first alphabetic character of the string must be uppercase.
+- All other alphabetic characters must be lowercase.
+- Numbers and non-alphabetic characters must not be modified.
+
+The output must be followed by a '\n'.
+
+If the number of arguments is not exactly one, the program displays only '\n'.
+
+==========================================================================================

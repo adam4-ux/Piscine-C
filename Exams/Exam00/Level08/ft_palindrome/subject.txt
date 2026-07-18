@@ -1,0 +1,17 @@
+Assignment name  : ft_palindrome
+Expected files   : ft_palindrome.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that checks if an integer is a palindrome.
+
+Return 1 if the integer is a palindrome.
+Return 0 otherwise.
+
+0 is considered a palindrome.
+Any negative number is not a palindrome.
+
+It should be prototyped as such
+
+int    ft_palindrome(int n);
+==========================================================================================

@@ -1,0 +1,12 @@
+Assignment name  : ft_set
+Expected files   : ft_set.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Create a function that sets an integer to a given value. The parameters are
+an integer value and a pointer pointing to an integer.
+
+It should be prototyped as such
+
+void    ft_set(int value, int *ptr)
+==========================================================================================

@@ -1,0 +1,11 @@
+Assignment name  : ft_square
+Expected files   : ft_square.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Create a function that squares the integer pointed to by a pointer.
+
+It should be prototyped as such
+
+void    ft_square(int *ptr)
+==========================================================================================

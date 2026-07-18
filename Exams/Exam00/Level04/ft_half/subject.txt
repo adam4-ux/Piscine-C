@@ -1,0 +1,12 @@
+Assignment name  : ft_half
+Expected files   : ft_half.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Create a function that divides an integer by 2. The parameter is a pointer
+pointing to an integer.
+
+It should be prototyped as such
+
+void    ft_half(int *ptr)
+==========================================================================================
