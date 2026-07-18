@@ -8,6 +8,6 @@ create a program that only writes the character if the index its not multiple of
 Example:
 
 ./a.out "FOR 42" | cat -e
-O 4$
+O 2$
 
 ==========================================================================================
