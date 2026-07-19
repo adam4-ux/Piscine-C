@@ -1,0 +1,14 @@
+Assignment name  : ft_man_subarray
+Expected files   : ft_man_subarray.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes an integer array and its size, and displays the
+largest sum of any contiguous subarray.
+
+The array contains at least one element.
+
+It should be prototyped as follows:
+
+void    ft_man_subarray(int *arr, int n);
+================================================================================
