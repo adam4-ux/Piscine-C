@@ -1,0 +1,14 @@
+Assignment name  : ft_mario
+Expected files   : ft_mario.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that takes two integer pointers.
+
+Add 42 to the value pointed to by a, then store the result in the
+integer pointed to by res.
+
+It should be prototyped as follows:
+
+void    ft_mario(int *a, int *res);
+================================================================================
