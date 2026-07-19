@@ -47,3 +47,29 @@ int    ft_palindrome(int n)
     }
     return (1);
 }
+
+// METHOD 2
+
+// int    ft_palindrome(int n)
+// {
+//     if (n < 0)
+//         return (0);
+
+//     if (n == 0)
+//         return (1);
+
+//     int nb = n;
+//     int res = 0;
+//     int mod = 0;
+//     while(nb > 0)
+//     {
+//         mod = nb % 10;
+//         res = res * 10 + mod;
+//         nb /= 10;
+//     }
+
+//     if(res == n)
+//         return 1;
+
+//     return 0;
+// }
