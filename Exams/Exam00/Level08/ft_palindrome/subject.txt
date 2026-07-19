@@ -1,4 +1,4 @@
-Assignment name  : ft_palindrome
+`Assignment name  : ft_palindrome
 Expected files   : ft_palindrome.c
 Allowed functions: None
 --------------------------------------------------------------------------------
