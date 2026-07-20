@@ -1,0 +1,12 @@
+Assignment name  : hermione
+Expected files   : hermione.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and displays it with the first letter of
+each word in uppercase and all other letters in lowercase.
+
+It should be prototyped as follows:
+
+void    hermione(char *str);
+================================================================================
