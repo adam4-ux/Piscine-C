@@ -12,6 +12,19 @@
         }
         return result;
     }
+    void ft_putchar(char c)
+    {
+        write(1,&c,1);
+    }
+
+    void ft_putnbr(int nb)
+    {
+        if(nb >= 10)
+        {
+            ft_putnbr(nb / 10);
+        }
+            ft_putchar(nb % 10 + '0');
+    }
 
     int main(int ac,char *av[])
     {
@@ -22,4 +35,18 @@
         }
 
         int nb = atoi(av[1]);
+        int sum;
+
+        while(nb >= 10)
+        {
+            sum = 0;
+            while(nb > 0)
+            {
+                sum = sum + (nb%10);
+                nb /= 10;
+            }
+            nb = sum;
+        }
+        ft_putnbr(nb);
+        ft_putchar('\n');
     }
