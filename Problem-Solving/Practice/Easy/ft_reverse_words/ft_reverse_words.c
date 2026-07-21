@@ -33,9 +33,3 @@ void    ft_reverse_words(char *str)
         first = last;
     }
 }
-int main()
-{
-    char str[] = "he adam llo 1337 world";
-    ft_reverse_words(str);
-    write(1,"\n",1);
-}
