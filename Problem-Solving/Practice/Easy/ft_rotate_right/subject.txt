@@ -1,0 +1,18 @@
+Assignment name  : ft_rotate_right
+Expected files   : ft_rotate_right.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that moves the last character of a string to the beginning.
+
+It should be prototyped as follows:
+
+void    ft_rotate_right(char *str);
+
+If the string is empty or contains only one character, it should remain unchanged.
+
+Examples:
+
+"abcde" -> "eabcd"
+"a"     -> "a"
+""      -> ""
