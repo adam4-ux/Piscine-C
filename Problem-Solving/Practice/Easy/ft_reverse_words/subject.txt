@@ -1,0 +1,21 @@
+Assignment name  : ft_reverse_words
+Expected files   : ft_reverse_words.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that reverses each word individually without changing the
+order of the words.
+
+It should be prototyped as follows:
+
+void    ft_reverse_words(char *str);
+
+A word is a sequence of characters separated by spaces.
+
+The function must preserve all spaces exactly as they appear.
+
+Examples:
+
+"hello 1337 world" -> "olleh 7331 dlrow"
+"abc def"           -> "cba fed"
+"hello"             -> "olleh"
