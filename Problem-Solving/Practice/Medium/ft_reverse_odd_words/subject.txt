@@ -1,0 +1,22 @@
+Assignment name  : ft_reverse_odd_words
+Expected files   : ft_reverse_odd_words.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that reverses only the words that have an odd number of
+characters, without changing the order of the words.
+
+A word is a sequence of characters separated by spaces, tabs or newlines.
+
+The function must modify the original string directly.
+
+It should be prototyped as such
+
+void    ft_reverse_odd_words(char *str);
+
+Examples:
+
+"one two three four" -> "eno owt eerht four"
+
+"hello 1337 world" -> "olleh 1337 dlrow"
+================================================================================
