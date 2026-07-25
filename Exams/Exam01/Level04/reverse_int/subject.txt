@@ -1,0 +1,9 @@
+Assignment name  : reverse_int
+Expected files   : reverse_int.c
+Allowed functions: None
+
+Write a function that reverses the digits of an integer.
+
+Your function must have the following prototype:
+
+int reverse_int(int n);
