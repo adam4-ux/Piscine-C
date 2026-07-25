@@ -1,0 +1,12 @@
+Assignment name  : ft_ultimate
+Expected files   : ft_ultimate.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Create a function that takes a pointer to an integer and sets the value of the
+integer to 42.
+
+It should be prototyped as such
+
+void    ft_ultimate(int *nbr)
+==========================================================================================

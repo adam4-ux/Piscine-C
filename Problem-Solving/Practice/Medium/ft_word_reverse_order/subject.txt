@@ -1,0 +1,24 @@
+Assignment name  : ft_word_reverse_order
+Expected files   : ft_word_reverse_order.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and reverses the order of the words.
+
+A word is a sequence of characters separated by spaces.
+
+The function should be prototyped as follows:
+
+void    ft_word_reverse_order(char *str);
+
+Example:
+
+"one two three" -> "three two one"
+
+"Hello world" -> "world Hello"
+
+"1337 is great" -> "great is 1337"
+
+The function must write the result to the standard output.
+
+Words are separated by one or more spaces.

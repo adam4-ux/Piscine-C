@@ -1,0 +1,11 @@
+Assignment name  : poe
+Expected files   : poe.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that displays the uppercase letters of the alphabet that are
+at even positions.
+
+The output should be followed by a newline.
+
+================================================================================

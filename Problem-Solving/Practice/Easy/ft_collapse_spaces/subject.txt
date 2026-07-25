@@ -1,0 +1,23 @@
+Assignment name  : ft_collapse_spaces
+Expected files   : ft_collapse_spaces.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and modifies it in place by collapsing
+multiple consecutive spaces into a single space.
+
+The function must also remove all spaces at the beginning and at the end
+of the string.
+
+It should be prototyped as follows:
+
+void    ft_collapse_spaces(char *str);
+
+Examples:
+
+"   hello    world  " -> "hello world"
+"hello     world"     -> "hello world"
+"   hello"            -> "hello"
+"hello   "            -> "hello"
+"     "               -> ""
+"hello world"         -> "hello world"

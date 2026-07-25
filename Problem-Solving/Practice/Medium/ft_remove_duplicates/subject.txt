@@ -1,0 +1,38 @@
+Assignment name  : ft_remove_duplicates
+Expected files   : ft_remove_duplicates.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that takes a string as argument and removes all duplicate
+characters from the string, keeping only the first occurrence of each
+character.
+
+Prototype:
+
+void    ft_remove_duplicates(char *str);
+
+The function must modify the original string directly.
+
+The order of the characters must remain unchanged.
+
+Examples:
+
+"banana" -> "ban"
+"mississippi" -> "misp"
+"hello" -> "helo"
+"abcabc" -> "abc"
+"aabbcc" -> "abc"
+"1337" -> "137"
+
+The function must handle an empty string.
+
+You must not use malloc() or create a new string.
+
+Examples:
+
+char str[] = "banana";
+ft_remove_duplicates(str);
+
+After calling the function, str contains:
+
+"ban"

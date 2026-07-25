@@ -1,0 +1,15 @@
+Assignment name  : swap_cases
+Expected files   : swap_cases.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and reverses the case of all its letters.
+Uppercase letters must be converted to lowercase, and lowercase letters must
+be converted to uppercase.
+
+Other characters remain unchanged.
+
+The function must be prototyped as follows:
+
+char    *swap_cases(char *str);
+==========================================================================================

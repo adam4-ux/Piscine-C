@@ -1,0 +1,12 @@
+Assignment name  : ft_chewie
+Expected files   : ft_chewie.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that takes a string and writes the given string to standard
+output, with every character repeated twice.
+
+It should be prototyped as follows:
+
+void    ft_chewie(char *str);
+================================================================================
