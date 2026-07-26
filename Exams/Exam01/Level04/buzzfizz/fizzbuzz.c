@@ -15,7 +15,7 @@ void ft_putnbr(int nb)
 
 int main()
 {
-    int i = 0;
+    int i = 1;
     while(i <= 100)
     {
 
