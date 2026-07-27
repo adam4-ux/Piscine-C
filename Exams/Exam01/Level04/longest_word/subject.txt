@@ -1,0 +1,25 @@
+Assignment name  : longest_word
+Expected files   : longest_word.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program called longest_word that takes a string as an argument and
+prints the longest word of the string, followed by a newline.
+
+Words are separated by spaces or tabs.
+
+If several words have the same length, print the first one.
+
+If the number of arguments is not 1, display only a newline.
+
+Examples:
+
+$>./longest_word "hello     my amazing world"
+amazing
+$>./longest_word "hello world"
+hello
+$>./longest_word "one two six"
+one
+$>./longest_word | cat -e
+$
+$>
