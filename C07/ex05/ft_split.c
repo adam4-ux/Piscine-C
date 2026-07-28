@@ -57,6 +57,7 @@ char **ft_split(char *str, char *charset)
            end++; 
 
         arr[i] = malloc((end - start + 1) * sizeof(char));
+        
         if(!arr[i])
         {
             while(i > 0)
