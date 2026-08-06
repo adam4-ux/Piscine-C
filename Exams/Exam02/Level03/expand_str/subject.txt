@@ -1,0 +1,20 @@
+Assignment name  : expand_str
+Expected files   : expand_str.c
+Allowed functions: write
+
+--------------------------------------------------------------------------------
+
+Write a program that takes a string as an argument and expands each character
+according to the digit that precedes it.
+
+A digit indicates how many times the following character must be repeated.
+
+If a character has no digit before it, it is displayed once.
+
+Examples:
+
+$> ./a.out "h3b4c 5ba3c" | cat -e
+hbbbcccc bbbbbacc$
+
+$> ./a.out | cat -e
+$

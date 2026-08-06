@@ -1,0 +1,28 @@
+Assignment name  : vigenere
+Expected files   : vigenere.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and an alphabetic key as arguments and
+displays the string encoded with a Vigenère cipher using the key.
+
+Each letter of the string is shifted forward by the alphabet position
+(0 to 25) of the matching key letter.
+
+The key repeats across the letters of the string.
+
+The case of the letters must be preserved.
+
+Non-alphabetic characters remain unchanged and do not consume a key letter.
+
+The output must be followed by a '\n'.
+
+If the number of arguments is not 2, display only a '\n'.
+
+Examples:
+
+$> ./vigenere hello key | cat -e
+rijvs$
+
+$> ./vigenere Attack abc | cat -e
+Auvadm$

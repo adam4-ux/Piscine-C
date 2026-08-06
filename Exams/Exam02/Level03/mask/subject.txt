@@ -1,0 +1,35 @@
+Assignment name  : mask
+Expected files   : mask.c
+Allowed functions: write
+
+------------------------------------------------------------
+
+Write a program that masks the middle characters of each word
+in a string.
+
+The program takes exactly one argument.
+
+For each word:
+- Keep the first character.
+- Replace all characters between the first and last character
+  with '*'.
+- Keep the last character.
+- Words containing one or two characters must remain unchanged.
+- Spaces must remain unchanged.
+
+Examples:
+
+$> ./a.out "secret formula"
+$> s****t f*****a
+
+$> ./a.out "aaa"
+$> a*a
+
+$> ./a.out "aa"
+$> aa
+
+$> ./a.out ""
+$>
+
+$> ./a.out
+$>
