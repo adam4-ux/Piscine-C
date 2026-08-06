@@ -1,0 +1,31 @@
+Assignment name  : prime_factors
+Expected files   : prime_factors.c
+Allowed functions: printf, atoi
+
+---
+
+Write a program that takes a positive integer as an argument and prints its
+prime factorization.
+
+The prime factors must be printed in ascending order and separated by '*'.
+
+If a prime factor appears multiple times, it must be printed multiple times.
+
+If the argument is 1, print 1 followed by a newline.
+
+If the number of arguments is not 1, print "wrong number of arguments"
+followed by a newline.
+
+Examples:
+
+$> ./prime_factors 12
+2*2*3
+
+$> ./prime_factors 36
+2*2*3*3
+
+$> ./prime_factors 1
+1
+
+$> ./prime_factors
+wrong number of arguments
