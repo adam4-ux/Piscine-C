@@ -1,0 +1,18 @@
+Assignment name : swap_ends
+Expected files : swap_ends.c 
+Allowed functions: None
+
+--------------------------------------------------------------------------------
+
+
+
+Write a function that takes an integer array and its size, and swaps the first
+and last elements of the array.
+
+The function must modify the array directly.
+
+If the array contains less than two elements, it must remain unchanged.
+
+The function should be prototyped as follows:
+
+void swap_ends(int *arr, int size);

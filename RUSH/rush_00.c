@@ -6,9 +6,16 @@
 // $>
 
 #include <unistd.h>
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 void rush(int b,int a)
 {
+    if (b <= 0 || a <= 0)
+	return ;
+
     int i = 0;
     int j;
 
@@ -22,23 +29,23 @@ void rush(int b,int a)
             i == a-1 && j == 0 ||
             i == a - 1 && j == b -1)
             {
-                write(1,"o",1);
+               ft_putchar('o');
             }
             else if(j == 0 || j == b - 1)
             {
-                write(1,"|",1);
+               ft_putchar('|');
             }
             else if( i == 0 || i == a - 1)
             {
-                write(1,"-",1);
+                ft_putchar('-');;
             }
             else
             {
-                write(1," ",1);
+                ft_putchar(' ');
             }
             j++;
         }
-        write(1,"\n",1);
+        ft_putchar('\n');
         i++;
     }
 }

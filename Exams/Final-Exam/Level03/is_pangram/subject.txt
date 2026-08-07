@@ -1,0 +1,17 @@
+Assignment name  : is_pangram
+Expected files   : is_pangram.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that checks whether a string is a pangram.
+
+A pangram is a string that contains every letter of the English alphabet
+from 'a' to 'z' at least once.
+
+The function must be case-insensitive.
+
+The function must return 1 if the string is a pangram, and 0 otherwise.
+
+The function should be prototyped as follows:
+
+int	is_pangram(char *str);

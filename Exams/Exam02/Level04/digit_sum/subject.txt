@@ -1,0 +1,37 @@
+Assignment name  : digit_sum
+Expected files   : digit_sum.c
+Allowed functions: write
+
+--------------------------------------------------------------------------------
+
+Write a program that takes a string as argument and replaces every sequence of
+consecutive digits with the sum of its digits.
+
+Characters that are not digits must be printed unchanged.
+
+If the string contains no digits, print it unchanged.
+
+If a sequence contains only one digit, it must remain unchanged.
+
+If the program is called with a number of arguments different from 1, it must
+display a newline.
+
+Examples:
+
+$> ./digit_sum "h21bc d82Fw"
+h3bc d10Fw$
+
+$> ./digit_sum "abc123"
+abc6$
+
+$> ./digit_sum "9test45"
+9test9$
+
+$> ./digit_sum "42"
+6$
+
+$> ./digit_sum "hello"
+hello$
+
+$> ./digit_sum | cat -e
+$

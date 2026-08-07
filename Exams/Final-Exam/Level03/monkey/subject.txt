@@ -1,0 +1,19 @@
+Assignment name  : monkey
+Expected files   : monkey.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and a number as arguments, and shifts
+each alphabetical character of the string by the given number of positions.
+
+Uppercase letters must remain uppercase, and lowercase letters must remain
+lowercase.
+
+If the shift goes beyond 'z' or 'Z', it must wrap around to the beginning
+of the alphabet.
+
+Non-alphabetical characters must remain unchanged.
+
+The program must print the resulting string followed by a newline.
+
+If the number of arguments is not correct, the program must print a newline.
