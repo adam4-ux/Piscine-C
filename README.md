@@ -1,22 +1,28 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:1abc9c&height=120&section=header&text=1337-PISCINE&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=55"/>
-</p>
+# 1337 Pool 🚀
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/IlyassLho/1337-PISCINE?color=gray&label=last%20commit">
-  <img src="https://img.shields.io/badge/c-99.5%25-1abc9c">
-  <img src="https://img.shields.io/badge/languages-2-1abc9c">
-</p>
+A month of intensive coding and problem solving.
 
-<p align="center">
-  <i>Built with the tools and technologies:</i>
-</p>
+This repository contains my work throughout the Pool, from **Shell scripting and basic C programming to memory management, pointers, linked lists, algorithms, and larger projects**.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white">
-</p>
+[![aeddoukk's 42 stats](https://badge.mediaplus.ma/kettlebells/aeddoukk)](https://github.com/oakoudad/badge42)
 
+## What I Worked On
 
+* 🐚 Shell scripting & Unix commands
+* 💻 C programming fundamentals
+* 🧠 Logic & problem solving
+* 📌 Pointers, strings & arrays
+* 🧩 Dynamic memory & `malloc`
+* 🔗 Linked lists & data structures
+* ⚙️ Function pointers & algorithms
+* 🐛 Debugging and understanding code
+* 🗺️ BSQ — parsing, validation, and solving
+* 🚀 Rush project & collaborative coding
 
-By -- ADAM
+## Experience
+
+The Pool taught me to approach problems independently, read subjects carefully, debug my own code, and keep working when things don't work on the first try.
+
+It was a challenging experience, but it gave me a much stronger foundation in programming and a better understanding of how to learn through practice.
+
+> **Learn by doing. Break it. Debug it. Understand it.**
