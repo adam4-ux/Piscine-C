@@ -1,22 +1,22 @@
 #include <stdlib.h>
-int *ft_range(int min, int max)
+
+int	*ft_range(int min, int max)
 {
-    int i = 0;
-    int range = max-min;
+	int	i;
+	int	range;
+	int	*arr;
 
-    if(min >= max)
-        return NULL;
-
-    int *arr = malloc(range * sizeof(int));
-    if(!arr)
-        return NULL;
-
-
-    while(i <= range)
-    {
-        arr[i] = min++;
-        i++;
-    }
-
-    return arr;
+	i = 0;
+	range = max - min;
+	if (min >= max)
+		return (NULL);
+	arr = malloc(range * sizeof(int));
+	if (!arr)
+		return (NULL);
+	while (i < range)
+	{
+		arr[i] = min++;
+		i++;
+	}
+	return (arr);
 }
